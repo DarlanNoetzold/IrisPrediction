@@ -2,13 +2,7 @@ import torch
 import torch.nn as nn
 from matplotlib import pyplot as plt
 import pandas as pd
-import pylab as pl
 import numpy as np
-from sklearn import linear_model
-from sklearn.metrics import r2_score, mean_squared_error,mean_absolute_error
-from sklearn.model_selection import train_test_split
-from math import sqrt
-import statsmodels.api as sm
 
 dados = pd.read_csv("iris.csv")
 
